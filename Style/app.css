@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(../font/roboto/Roboto-LightItalic.ttf);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+        /* header part */
+.navbar {
+    background-color: rgb(228, 179, 187);
+    position: sticky;
+    top : 0;
+    z-index: 9999;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.navbar-brand {
+    position: relative;
+    left: 20px;
+    text-decoration: none;
+}
+
+.navmenu {
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+    
+    text-align: center;
+
+}
+.navi {
+    display: inline-block;
+    margin: 10px 10px;
+}
+.navlink {
+    text-decoration: none;
+    color: black;
+}
+
+.navlink:hover {
+    color: rgb(173, 74, 107);
+}
+.btn1 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight:    400;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+    margin-left: 600px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+
+.about {
+    background-color: #be7e88;
+}
+.right-content {
+    text-align: center;
+
+}
+.left-content {
+    padding-left: 50px;
+   position: relative;
+   top: -200px;
+}
+.left-content h1 {
+    color: #1f1f25;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        display: inline-block;
+        margin-bottom: 20px;
+        background: linear-gradient(120deg, #43f37d 20.69%, #b39bf5 50.19%, #ebbcc5 79.69%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: border-box;
+    }
+
+    /* hero part */
+    .work {
+        text-align: center;
+        width: 100%;
+        padding: 100px 0px;
+    }
+
+    
+    .workbox div h3 {
+        font-size: 35      
+    }
+    .workbox{
+        display: inline-flex;
+    }
+
+    .team {
+       display: inline-block;
+       width: 200px;
+       border: 1px solid black;
+       margin: 0px 15px; 
+       padding: 30px;
+    }
+
+    .btn {
+        background-color: #c26c7b;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* resume part
+
+    */
+
+    .Resume {
+        text-align: center;
+        background-color: #be7e88; 
+            padding: 40px;
+    }
+
+    .images {
+     display: inline-flex;
+     width: 550px;
+     padding:  0px;
+     box-shadow: 60px 20px 30px  black ;
+    }
+
+    .contact {
+        padding-bottom: 65px;
+            text-align: center;
+    }
+
+    .footer{
+        background-color: #be7e88; 
+        padding: 10px;
+        text-align: center;
+       }
+   
+
+  

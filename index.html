@@ -4,39 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Style/app.css" />
     <title>Portfolio</title>
 </head>
 <body>
    
-<section class=" header">
+   <section class=" header">
+          <div class="navbar" >
             <a class="navbar-brand" >Meriem Mokdad</a>
-           
-            <div class="navbar" >
-                <ul class="navbar-nav ">
-                    <li class="nav-item a">
-                        <a class="nav1" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav2" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav3" href="#work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav4" href="#Resume">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav5" href="#contact">Contact</a>
-                    </li>
-                </ul>
+               <ul class="navmenu">
+                <li class="navi"><a href="#" class="navlink">Home</a></li>
+                <li  class="navi"><a href="#" class="navlink">About</a></li>
+                <li class="navi"><a href="#" class="navlink">Service</a></li>
+                <li class="navi"><a href="#" class="navlink">Resume</a></li>
+                <li class="navi"><a href="#" class="navlink">Contact</a></li>
+            </ul>
+            <a href="#" class="btn1">Hire Me</a>
+
                 
             </div>
-        <div class="about">
-            <div class="row">
-                <h2 class="hero_title">Hi,I'm Meriem Mokdad</h2>
-                <img src="/images/ME.jpg" style="width: 300px;">
-                <p class="hero_desc"></p> A bignner developer and a good photographer</p> <br>
+          <div class="about">
+                <div class="right-content">
+                <img src="/images/ME.jpg" 
+                     style="width: 300px;
+                           height: 300px;
+                           margin-top: 90px;
+                           margin-left: 800px;">
+                </div> 
+                 <div class="left-content">
+                  <h1 class="hero_desc">I'm Meriem Mokdad </h1> <br>
+
+                 <h2 class="hero_title"> A bignner developer and a good photographer</h2>
+                 <p>I'am working to develope my self and skills ,  and i would love to learn more with you!</p>
             </div>
         </div>
 
@@ -47,7 +49,8 @@
             <h3> im Meriem Mokdad a junior developer and a photographer
                  I hope that you'll enjoy watching my skills! ^^
             </h3>
-           <div class = "work box">
+           <div class = "workbox">
+            <div class="box">
             <div class="team team1">
               <h3>Front End developper</h3>
               <p>
@@ -56,8 +59,10 @@
                 doloremque molestiae dolorem voluptatum mollitia! Quasi nam,
                 quae rerum aliquid totam quia!
               </p>
-              <button class="btn">Show work</button>
+              <button class="btn">Show more</button>
+            </div> 
             </div>
+             <div class="box">
             <div class="team team2">
               <h3>Back End developper</h3>
               <p>
@@ -66,8 +71,10 @@
                 doloremque molestiae dolorem voluptatum mollitia! Quasi nam,
                 quae rerum aliquid totam quia!
               </p>
-              <button class="btn">Show work</button>
+              <button class="btn">Show more</button>
             </div>
+             </div>
+             <div class="box">
             <div class="team team3">
               <h3>Photographer</h3>
               <p>
@@ -76,15 +83,21 @@
                 doloremque molestiae dolorem voluptatum mollitia! Quasi nam,
                 quae rerum aliquid totam quia!
               </p>
-              <button class="btn">Show work</button> <br> <br>
+              <button class="btn">Show more</button> <br> 
             </div>
-         </div><br> <br>
+             </div>
+           </div>
+         </div>
           
             
 
            <div class="Resume">
-             <h3>Check some of my work !</h3>
-
+           <div class="left-contentR">
+            
+    
+           </div>
+             <h3>Check some of my art work too!</h3>
+             <div class="images">
              <img 
              src="images/Resume/1.jpg" 
              style="width: 200px;">
@@ -94,10 +107,14 @@
              <img
              src="images/Resume/3.jpg"
              style="width: 200px;">
-           </div> <br> <br>
+             <br> 
+
+           </div>
+           </div>
+            <br> <br>
 
           <div class="contact">
-            <h4>Hire me!</h4>
+            <h4>Contact  me!</h4>
                <form >
                 <label  for="name">Your full name:</label><br />
                 <input name="name" type="text" value="" size="30" /><br />
