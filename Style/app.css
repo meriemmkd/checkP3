@@ -90,7 +90,6 @@ body {
         display: inline-block;
         margin-bottom: 20px;
         background: linear-gradient(120deg, #43f37d 20.69%, #b39bf5 50.19%, #ebbcc5 79.69%);
-        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: border-box;
     }
